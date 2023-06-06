@@ -2,6 +2,7 @@ class Manusia:
     #Class attribute
     suku = "Jawa"
 
+    #Constructor method
     def __init__(self, name, age, agama, jnskel, alamat, status):
         self.name = name
         self.age = age
@@ -10,6 +11,7 @@ class Manusia:
         self.alamat = alamat
         self.status = status
 
+    #custom method
     def biodata(self):
         return f"Nama: {self.name} \nUsia: {self.age} \nAgama: {self.agama} \nJenis Kelamin: {self.jnskel} \nAlamat: {self.alamat} \nStatus: {self.status}"
     
