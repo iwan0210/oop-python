@@ -16,6 +16,6 @@ class Employee:
 
 empArief = Employee("Arief", 1000000)
 empYasir = Employee("Yasir", 2000000)
-empArief.displayCount()
 empArief.dislayEmployee()
 empYasir.dislayEmployee()
+print(f"Total Employee {Employee.empCount}")
